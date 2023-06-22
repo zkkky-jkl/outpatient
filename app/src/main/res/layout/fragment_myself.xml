@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.myself.MyselfFragment"
+    android:background="@color/DimGray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back">
+
+        <ImageView
+            android:id="@+id/myself_userHead_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_myself_white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/myself_userName_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:text="ID"/>
+            <TextView
+                android:id="@+id/myself_userPhone_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="18758399793"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/myself_LinearLayout"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/myself_tv_certify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="未实名" />
+
+        <ImageButton
+            android:id="@+id/myself_ib_certify"
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrowhead_right" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_card"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_card"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="我的一卡通"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_reserve"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_reserve"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="我的预约"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_examination"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_examination"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="我的检查"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_bill"
+        style="@style/myself_LinearLayout"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_bill"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="我的账单"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_complain"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_complain"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="投诉"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_about"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_about"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="关于我们"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myself_LinearLayout_logout"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_off"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="退出登录"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

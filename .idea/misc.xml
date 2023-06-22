@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.191" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_duplicate.xml" value="0.191" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_inventory.xml" value="0.1235" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_medical_kit.xml" value="0.1235" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_outpatient.xml" value="0.191" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_vaccinum.xml" value="0.1235" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/drawable/ic_wikipedia.xml" value="0.1235" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_function20.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_my_reserve.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_outpatient_reserve.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_reserve.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/activity_schedule.xml" value="0.20820863616930313" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/dialog_func10.xml" value="0.20820863616930313" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/fragment_information.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/fragment_myself.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/fragment_reserve.xml" value="0.4276155717761557" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/fragment_second.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_emergency.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_hospitalize.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_outpatient.xml" value="0.3651041666666667" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_physical_examination.xml" value="0.17" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_physical_examination1.xml" value="0.3651041666666667" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_physical_examination2.xml" value="0.3651041666666667" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_physical_examination3.xml" value="0.3651041666666667" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/guide_physical_examination4.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/reserver_detail_row.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/schedule_date_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/schedule_doctor_row_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/layout/temporary_layout.xml" value="0.30055579307396324" />
+        <entry key="..\:/AndroidStudioProjects/curriculumdesign2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

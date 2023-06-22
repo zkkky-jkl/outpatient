@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_reserve_row_view"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/my_reserve_tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="04-18"/>
+
+        <TextView
+            android:id="@+id/my_reserve_tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5号楼103"/>
+
+        <TextView
+            android:id="@+id/my_reserve_tv_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="未缴费"/>
+
+</LinearLayout>

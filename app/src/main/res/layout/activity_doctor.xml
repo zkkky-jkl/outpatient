@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DimGray"
+    tools:context=".DoctorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back">
+
+        <ImageView
+            android:id="@+id/myself_userHead_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_myself_white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/myself_userName_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:text="ID"/>
+            <TextView
+                android:id="@+id/myself_userPhone_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="18758399793"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doctor_my_schedule"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_schedule"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="我的排班"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doctor_my_reserve"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_reserve"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="预约我的"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logout"
+        style="@style/myself_LinearLayout">
+        <ImageView
+            style="@style/myself_iv"
+            android:src="@drawable/ic_off"/>
+        <TextView
+            style="@style/myself_tv"
+            android:text="退出登录"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_reserve">
+
+    <fragment
+        android:id="@+id/navigation_information"
+        android:name="tcf.com.tcp.curriculumdesign2.ui.information.InformationFragment"
+        android:label="@string/title_information"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/navigation_reserve"
+        android:name="tcf.com.tcp.curriculumdesign2.ui.reserve.ReserveFragment"
+        android:label="@string/title_reserve"
+        tools:layout="@layout/fragment_reserve" />
+
+    <fragment
+        android:id="@+id/navigation_myself"
+        android:name="tcf.com.tcp.curriculumdesign2.ui.myself.MyselfFragment"
+        android:label="@string/title_myself"
+        tools:layout="@layout/fragment_myself" />
+</navigation>

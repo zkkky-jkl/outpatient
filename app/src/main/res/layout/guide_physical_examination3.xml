@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3  体检需知"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/num3"
+        android:text="检前:\n
+1.避免剧烈运动，保证睡眠充足\n
+2.饮食管理:体检前3天内，尽量避免高糖、高脂肪、高蛋白的食物，避免饮酒、饮用咖啡或浓茶。体检前至少禁食8小时。\n
+3.药物管理:体检当日，不要贸然停用高血压、冠心病药物，可少量饮水服用，禁食状态暂停糖尿病用药，完成检查或进餐后及时服用请随身携带正在服用的药物，及时告知选套餐医师病情和服药情况，以便医师进行相关体检检查项目的选择，并作出药物的服用指导。\n
+4.穿着准备: 请穿舒适、易穿脱衣物，勿穿带有金属纽扣的衣服、内衣等。\n
+5.证件准备: 请携带本人有效身份证或护照、社保卡。\n
+6.时间规划: 建议体检当日早上7: 15-9: 00到达医疗保健中心。\n
+7.女性生理期: 尽量选择生理期结束3-5天及以后\n
+8.怀孕、计划怀孕者(包括男性)，必须提前告知医护人员，X线、CT等有放射性的检查需禁检或慎检。\n
+9.胃肠镜检查者，需在专科医生指导下暂停抗血小板药物和抗凝药物1周，如抗血小板药物: 阿司匹林，P2Y12受体拮抗剂(氯格雷.普拉格雷、替格瑞洛);抗凝药物:华法林、利伐沙班、达比加群、阿帕沙班、依多沙班等。\n
+10.磁共振MRI检查者，如身上有不可拆除的金属植入物，如骨路固定装置、心脏起搏器、血管支架、植入式人工耳蜗、金属假牙等，必须提前告知医护人员，谨慎选择MRI检查。"/>
+
+</RelativeLayout>
