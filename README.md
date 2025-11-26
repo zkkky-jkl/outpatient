@@ -9,19 +9,19 @@ graph TD
     subgraph Cloud_Server_Offline [云端预处理阶段: 语义分桶 & 排序]
         direction TB
         C1[海量公共数据集] --> C2[特征提取 & 聚类构建]
-        C2 --> C3[<b>关键改进: Distance-Aware Sorting</b><br>按特征距离对每个簇内数据排序]
-        C3 --> C4[<b>语义分桶 (Bucketing)</b><br>生成 Block 存储结构]
-        C4 --> C5[<b>生成元数据 (Metadata)</b><br>发布距离分布摘要 & 索引范围]
+        C2 --> C3["<b>关键改进: Distance-Aware Sorting</b><br>按特征距离对每个簇内数据排序"]
+        C3 --> C4["<b>语义分桶 (Bucketing)</b><br>生成 Block 存储结构"]
+        C4 --> C5["<b>生成元数据 (Metadata)</b><br>发布距离分布摘要 & 索引范围"]
         C2 -->|构建| D_Dir[目录数据集 Directory Dataset]
     end
 
     subgraph Mobile_Device [移动设备端: 决策与索引生成]
         direction TB
-        D1[用户新情境数据 New Context] -->|特征提取| D2[<b>软数据匹配 (Soft Matching)</b><br>计算簇权重 w]
+        D1[用户新情境数据 New Context] -->|特征提取| D2["<b>软数据匹配 (Soft Matching)</b><br>计算簇权重 w"]
         D_Dir -.-> D2
         C5 -.->|下载元数据| D3
-        D2 --> D3[<b>关键改进: 逆变换采样</b><br>Inverse Transform Sampling]
-        D3 -->|结合元数据 & 权重| D4[<b>生成目标索引列表</b><br>Target Indices List]
+        D2 --> D3["<b>关键改进: 逆变换采样</b><br>Inverse Transform Sampling"]
+        D3 -->|结合元数据 & 权重| D4["<b>生成目标索引列表</b><br>Target Indices List"]
         
         %% 隐私边界
         D4 --> P1[生成 Batch PIR 查询请求]
@@ -59,4 +59,3 @@ graph TD
     T1:::device
     T2:::device
     T3:::device
-```
