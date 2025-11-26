@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% 定义样式
     classDef cloud fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
@@ -58,4 +59,4 @@ graph TD
     T1:::device
     T2:::device
     T3:::device
-
+```
